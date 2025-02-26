@@ -15,5 +15,11 @@ final ThemeData theme = ThemeData(
     surfaceTint: Colors.black12,
     primary: Colors.white,
     onPrimary: Colors.black,
+  ),
+  elevatedButtonTheme: ElevatedButtonThemeData(
+    style: ButtonStyle(
+    backgroundColor: WidgetStateProperty.all(Colors.white),
+    foregroundColor: WidgetStateProperty.all(Colors.black),
+    )
   )
 );
